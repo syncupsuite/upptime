@@ -1,0 +1,38 @@
+owner: syncupsuite
+repo: upptime
+
+sites:
+  - name: SyncupSuite
+    url: https://syncupsuite.com
+  - name: Documentation
+    url: https://docs.syncupsuite.com
+  - name: BrandSyncUp
+    url: https://brandsyncup.com
+  - name: LegalSyncUp
+    url: https://legalsyncup.com
+
+status-website:
+  cname: status.syncupsuite.com
+  logoUrl: https://syncupsuite.com/favicon.svg
+  name: SyncupSuite Status
+  introTitle: "**SyncupSuite** platform status"
+  introMessage: Current status and uptime history for SyncupSuite services.
+  navbar:
+    - title: Homepage
+      href: https://syncupsuite.com
+    - title: Docs
+      href: https://docs.syncupsuite.com
+
+i18n:
+  activeIncidents: Active incidents
+  noActiveIncidents: All systems operational
+  pastIncidents: Past incidents
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "*/5 * * * *"
+  uptime: "*/5 * * * *"
