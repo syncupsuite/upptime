@@ -34,5 +34,9 @@ workflowSchedule:
   staticSite: "0 1 * * *"
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
-  updates: "*/5 * * * *"
+  updates: "0 3 * * *"
   uptime: "*/5 * * * *"
+
+# Only these repository secrets are passed to uptime-monitor (SECRETS_CONTEXT).
+# Add names here (e.g. NOTIFICATION_SLACK_WEBHOOK_URL) when configuring notifications.
+secrets: []
